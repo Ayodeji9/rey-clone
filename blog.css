@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.body{
+    background-color: rgba(0, 0, 0, 0.068);
+}
+nav{
+    padding: 15px 40px;
+    
+}.div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.logo{
+    width: 10%;
+}
+.small1{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.my{
+    font-size: 13px;
+    font-weight: 700;
+}
+.fa-search{
+    font-size: 25px;
+    padding-left: 15px;
+    margin-top: -5px;
+}
+.fa-shopping-bag{
+    font-size: 25px;
+    padding-left: 15px;
+    margin-top: -5px;
+
+}
+.small2{
+    text-transform: uppercase;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 650px;
+}
+.home{
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+.home:hover{
+    border-bottom: 3px solid black;
+    margin-bottom: 20px ;
+}
+.home1{
+    padding-left: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+.div1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 15px;
+}
+.words{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.new{
+    padding-left: 20px;
+    font-size: 12px
+}
+.small3{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 12px;
+    padding-left: 250px;
+}
+.new2{
+    padding-left: 20px;
+    font-weight: 53;
+}
+.le{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 100px;
+}
+.jou1{
+    width:100% ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.jou{
+    font-size: 40px;
+}
+.our{
+    font-size: 18px;
+    padding-top: 20px;
+}
+.pp{
+    padding: 100px 300px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.post{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url(./IMAGE/post-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* height:90vh; */
+}
+.post:hover{
+    padding: 20px;
+    transition: 2s;
+}
+.post1:hover{
+    padding: 20px;
+    transition: 2s;
+}
+.post2:hover{
+    padding: 20px;
+    transition: 2s;
+}
+
+.post1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url(./IMAGE/post-2-735x735.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.post2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url(./IMAGE/post-3.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+   
+}
+.daily{
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: white;
+    padding: 5px 5px ;
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    margin-top: 500px;
+    margin-bottom: 60px;
+    border-radius: 3px;
+    box-shadow: 4px 4px 4px 4px  black;
+}
+.order{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.in{
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+}
+.in:hover{
+    border-bottom: 4px solid black  ;
+}
+.admin{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.by{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.by1{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.dis{
+    font-size: 18px;
+    padding-top: 30px;
+}
+.read1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 30px;
+}
+.read{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.footer{
+    background-color: #95a6b1;
+    padding: 100px 50px;
+    margin-top: 100px;
+}
+.body5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    width: 100%;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 45%;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 45%;
+}
+.follow2{
+ color: rgba(101, 100, 100, 0.455);
+    font-size: 15px;
+    font-weight: 600;
+}
+.info{
+color: rgb(80, 80, 80);
+    font-size: 15px;
+    padding-top: 30px;
+}
+.fonts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fa-pinterest{
+    color: white;
+    padding: 30px;
+}
+.body6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.body6a{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.body6b{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 100px;
+}
+.our{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.hello{
+    color: white;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.form{
+    padding-top: 50px;
+}
+.input{
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 300px;
+    background-color: rgba(104, 103, 103, 0.155);
+}
+.sub{
+    font-size: 15px;
+    color: #646668b5;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    nav{
+        padding: 10px 10px;
+    }
+    .div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+    }
+    .logo{
+        width: 50%;
+    }
+    .small1{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-top: 20px;
+       padding-left: 10px;
+    }
+    .small2{
+        text-transform: uppercase;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-top: 20px;
+        padding-left: 00px;
+    }
+    .div1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 15px;
+        display: none;
+    }
+    .div3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 5px 20px;
+    }
+    .silvermoon{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer{
+        margin-top: 100px;
+        padding: 50px 20px;
+       }
+       .body5{
+        flex-direction: column;
+       }
+       .footer1{
+        width: 100%;
+       }
+       .follow2{
+        font-size: 30px;
+       }
+       .fa-pinterest{
+        padding: 10px;
+       }
+       .info{
+        font-size: 30px;
+       }
+       .body6{
+        padding-top: 10px;
+        flex-direction: row;
+       }
+       .body6b{
+        padding-left: 30px;
+       }
+       .footer2{
+        width: 100%;
+       }
+       .follow2{
+        padding-top: 30px;
+       }
+       .hello{
+        font-size: 25px;
+       }
+       .input{
+        padding-right: 100px;
+        padding-top: 20px;
+       }
+       .form{
+        padding-top: 10px;
+       }
+       .pp{
+        padding: 0px;
+       }
+       .post{
+            width: 100%;
+            background-size: contain;
+           
+       }
+       .daily{
+        margin-top: 2 00px;
+       }
+
+}

@@ -1,0 +1,1028 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body{
+    background-color: rgba(0, 0, 0, 0.068);
+}
+nav{
+    padding: 15px 40px;
+    
+}.div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.logo{
+    width: 10%;
+}
+.small1{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.my{
+    font-size: 13px;
+    font-weight: 700;
+}
+.fa-search{
+    font-size: 25px;
+    padding-left: 15px;
+    margin-top: -5px;
+}
+.fa-shopping-bag{
+    font-size: 25px;
+    padding-left: 15px;
+    margin-top: -5px;
+
+}
+.small2{
+    text-transform: uppercase;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 700px;
+}
+.home{
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+.home:hover{
+    border-bottom: 3px solid black;
+    margin-bottom: 20px ;
+}
+.home1{
+    padding-left: 0px;
+    font-size: 10px;
+    font-weight: 700;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+.div1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 15px;
+}
+.words{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.new{
+    padding-left: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+.new1{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+}
+.small3{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 12px;
+    padding-left: 280px;
+}
+.new2{
+    padding-left: 20px;
+    font-weight: 53;
+}
+.header{
+    background-color: rgba(36, 36, 36, 0.032);
+}
+.div3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 80px;
+}
+.silvermoon{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.new3{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.453);
+    padding-top: 100px;
+}
+.silvermoon1{
+    font-size: 70px;
+    font-family: "Barlow Semi Condensed_";
+    padding-top: 10px;
+}
+.rapid{
+    font-size: 20px;
+    padding-top: 40px;
+    color: rgba(0, 0, 0, 0.796);
+    padding-top: 20px;
+}
+.image{
+    background-image: url(./IMAGE/slide-2x.jpg);
+   width: 60%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 60vh;
+   transition: 2s;
+}
+
+.image:hover{
+    background: url(./IMAGE/slide-1.jpg);
+    width: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    transition: 2s;
+}
+
+.btn{
+    color: black;
+    border: 2px solid rgba(0, 0, 0, 0.73);
+    margin-top: -10px;
+    padding:15px 50px;
+    font-size: 10px;
+    background: none;
+    border-radius: 3px;
+}
+.follow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 80px;
+    background-color: white;
+}
+.follow1{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.453);
+   
+}
+.fa-facebook{
+    padding-left: 20px;
+}
+.fa-instagram{
+    padding-left: 20px;
+}
+.fa-linkedin{
+    padding-left: 20px;
+}
+.div4{
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 30px 350px;
+    background-color: white;
+}
+.image1{
+    width: 20%;
+}
+.german{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.german1{
+    color: rgba(0, 0, 0, 0.453);
+    font-size: 35px;
+    padding: 40px;
+    padding-bottom: 10px;
+}
+.rapid1{
+    color: rgba(0, 0, 0, 0.453);
+    font-size: 15px;
+    padding-left: 40px;
+    
+}
+.designer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    background-color: white;
+
+}
+.picks{
+    font-size: 30px;
+}
+
+.shop{
+    font-size: 15px;
+    padding-top: 10px;    
+    font-weight: 700;
+}
+.rings{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 40px;
+}
+.ring1{
+    width: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 30px;
+}
+.ringg{
+    background-image: url(./IMAGE/23-600x600.jpg);
+    background-size: contain  ;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 40vh;
+    transition: 2s;
+}
+.ringg1{
+    background-image: url(./IMAGE/20-600x600.jpg);
+    background-size: contain  ;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 40vh;
+    transition: 2s;
+}
+.ringg:hover{
+    background-image: url(./IMAGE/23-1-600x600.jpg);
+    transition: 2s;
+}
+.ringg1:hover{
+    background-image: url(./IMAGE/26-1-600x600.jpg);
+    transition: 2s;
+}
+
+.words1{
+    font-size: 16px ;
+    text-transform: capitalize;
+}
+.money{
+    padding-left: 100px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.ring2{
+    width: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 50px;
+    text-align: center;
+}
+.money1{
+    padding-left: 130px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.words2{
+    font-size: 16px ;
+    text-transform: capitalize;
+    padding-top: 25px;
+}
+
+.ring3{
+    width: 21%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    text-align: center;
+}
+.words3{
+    font-size: 16px ;
+    text-transform: capitalize;
+    padding-top: 40px;
+}
+.money3{
+    padding-left: 80px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.ring4{
+    width: 21%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    text-align: center;
+}
+.selected{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.432);
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.selected1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 50px;
+}
+.categories{
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(./IMAGE/Layer-522.jpg);
+    
+}
+.categories1{
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(./IMAGE/Layer-523.jpg);
+    margin-left: 20px;
+}
+.categories2{
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(./IMAGE/Layer-524.jpg);
+    margin-left: 20px;
+}
+.brace{
+    margin-top: 200px;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+.selected2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 50px;
+}
+.earrings{
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(./IMAGE/Layer-529.jpg);
+}
+.womenrings{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(./IMAGE/wm-home-cat-1024x462.jpg);
+    margin-left: 20px;
+    height: 55vh;
+}
+.menrings{
+    padding-top: 300px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+.image2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(./IMAGE/make-your-mark-opt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header1{
+    padding: 30px 40px;
+}
+.card{
+   width: 40%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-top: 250px;
+   margin-left: 20px;
+   margin-bottom: 50px;
+}
+.mm{
+    background-color: white;
+    padding: 10px 50px;
+}
+.make{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.596);
+    font-weight: 700;
+    padding-top: 50px;
+}
+.transform{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.quote{
+    font-size: 20px;
+    padding-top: 20px;
+    border-bottom: 2px solid black;
+    width: 22%;
+}
+.body1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 40px ;
+}
+.card1{
+    width: 30%;
+}
+.card2{
+    width: 30%;
+    background-image: url(./IMAGE/clean6-851x1024.jpg);
+    margin-left: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.jew{
+    color: white;
+    font-size: 30px;
+    padding-top: 400px;
+    padding-left: 30px;
+}
+.card3{
+    width: 30%;
+    background-color: rgba(6, 51, 69, 0.419);
+    padding: 100px 40px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.card3{
+    color: white;
+    font-size: 40px;
+}
+.yy{
+    color: white;
+    font-size: 18px;
+    padding-top: 30px;
+}
+.body2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 50px;
+}
+.image3{
+    width: 45%;
+}
+.words4{
+    width: 30%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.gift{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.453);
+}
+.peer{
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.453);
+}
+.for{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20PX;
+    font-size: 12px;
+}
+.gg{
+    margin-left: 30px;
+    border-bottom: 3px solid black;
+    font-weight: 700;
+}
+.gg1{
+    border-bottom: 3px solid black;
+    font-weight: 700;
+}
+.body3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.card4{
+    width: 45%;
+    padding: 50px 250px;
+}
+.gg2{
+    border-bottom: 3px solid black;
+    font-weight: 700;
+    width: 40%;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 20px;
+}
+.peer1{
+    font-size: 20px;
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.453);
+}
+.visit{
+    width: 55%;
+    transform: translateY(-100px) translatex(-100px);
+}
+.body4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 80px;
+}
+.card5{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.card6{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 80px;
+}
+.card7{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.card8{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+.image4{
+    width: 20%;
+    align-self: center;
+}
+.card5a{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.453);
+    padding-top: 10px;
+}
+.card5b{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.453);
+    padding-top: 10px;
+}
+.footer{
+    background-color: #95a6b1;
+    padding: 100px 50px;
+}
+.body5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    width: 100%;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 45%;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 45%;
+}
+.follow2{
+ color: rgba(101, 100, 100, 0.455);
+    font-size: 15px;
+    font-weight: 600;
+}
+.info{
+color: rgb(80, 80, 80);
+    font-size: 15px;
+    padding-top: 30px;
+}
+.fonts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fa-pinterest{
+    color: white;
+    padding: 30px;
+}
+.body6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.body6a{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.body6b{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 100px;
+}
+.our{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.hello{
+    color: white;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.form{
+    padding-top: 50px;
+}
+.input{
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 300px;
+    background-color: rgba(104, 103, 103, 0.155);
+}
+.sub{
+    font-size: 15px;
+    color: #646668b5;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    nav{
+        padding: 10px 10px;
+    }
+    .div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+    }
+    .logo{
+        width: 50%;
+    }
+    .small1{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-top: 20px;
+       padding-left: 10px;
+    }
+    .small2{
+        text-transform: uppercase;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-top: 20px;
+        padding-left: 00px;
+    }
+    .div1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 15px;
+        display: none;
+    }
+    .div3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 5px 20px;
+    }
+    .silvermoon{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .new3{
+        padding-top: 0px;
+    }
+    .rapid{
+        padding-top: 0px;
+        font-size: 15px;
+    }
+    .btn{
+        margin-top: 5px;
+        padding: 10px 10px;
+        width: 30%;
+        font-size: 15px;
+    }
+    .image{
+        width: 100%;
+        background-size: contain;
+        margin-top: 20px;
+        background-repeat: no-repeat;
+        height: 30vh;
+    }
+    .image:hover{
+        width: 100%;
+        background-size: contain;
+        margin-top: 20px;
+        background-repeat: no-repeat;
+        height: 30vh;
+    }
+    .follow{
+        padding: 20px 30px ;
+    }
+    .div4{
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .image1{
+        width: 70%;
+    }
+    .german1{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .rapid1{
+        padding: 10px;
+        padding-top: 5px;
+    }
+    .designer{
+        padding-top: 10px;
+    }
+    .rings{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .ring1{
+        width: 100%;
+    }
+    .ring2{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .ring3{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .ring4{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .words3{
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+    .money3{
+        padding-right: 50px;
+        padding-top: 15px;
+    }
+    .selected{
+        padding-top: 20px;
+        margin-top: 30px;
+    }
+    .selected1{
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .categories{
+        width: 100%;
+        background-size: contain;
+    }
+    .categories1{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .categories2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+        background-size: contain;
+    }
+    .selected2{
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .earrings{
+        width:100%;
+    }
+    .womenrings{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-image: url(./IMAGE/wm-home-cat-1024x462.jpg);
+        margin-left: 0px;
+        height: 65vh;
+        margin-top: 10px;
+        background-size: cover;
+    }
+    .menrings{
+        padding-left: 10px;
+    }
+    .header1{
+        padding: 10px 20px;
+    }
+    .image2{
+        width: 100%;
+        background-size: cover;
+    }
+    .card{
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .body1{
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .card1{
+        width: 100%;
+    }
+    .card2{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .jew{
+        padding-top: 300px;
+        padding-left: 10px;
+        height: 70vh;
+    }
+    .card3{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .body2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .image3{
+        width: 100%;
+    }
+    .words4{
+        width: 100%;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .body3{
+        flex-direction: column-reverse;
+    }
+    .card4{
+        width: 100%;
+        padding: 10px 30px;
+    }
+    .visit{
+        width: 100%;
+        transform: none;
+        padding: 20px;
+    }
+    .peer1{
+        padding-top: 5px;
+    }
+    .body4{
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .card5{
+        width: 100%;
+        margin-top: 10px;
+
+    }
+    .card6{
+        width: 100%;
+        margin-left: 00px;
+        margin-top: 30px;
+    }
+    .card7{
+        width: 100%;
+        margin-left: 00px;
+        margin-top: 30px;
+    }
+    .card8{
+        width: 100%;
+        margin-left: 00px;
+        margin-top: 30px;
+    }
+   .footer{
+    margin-top: 100px;
+    padding: 50px 20px;
+   }
+   .body5{
+    flex-direction: column;
+   }
+   .footer1{
+    width: 100%;
+   }
+   .follow2{
+    font-size: 30px;
+   }
+   .fa-pinterest{
+    padding: 10px;
+   }
+   .info{
+    font-size: 30px;
+   }
+   .body6{
+    padding-top: 10px;
+    flex-direction: row;
+   }
+   .body6b{
+    padding-left: 30px;
+   }
+   .footer2{
+    width: 100%;
+   }
+   .follow2{
+    padding-top: 30px;
+   }
+   .hello{
+    font-size: 25px;
+   }
+   .input{
+    padding-right: 100px;
+    padding-top: 20px;
+   }
+   .form{
+    padding-top: 10px;
+   }
+}

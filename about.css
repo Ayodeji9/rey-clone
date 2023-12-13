@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+nav{
+    padding: 15px 40px;
+    
+}.div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.logo{
+    width: 10%;
+}
+.small1{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.my{
+    font-size: 13px;
+    font-weight: 700;
+}
+.fa-search{
+    font-size: 25px;
+    padding-left: 15px;
+    margin-top: -5px;
+}
+.fa-shopping-bag{
+    font-size: 25px;
+    padding-left: 15px;
+    margin-top: -5px;
+
+}
+.small2{
+    text-transform: uppercase;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 700px;
+}
+.home{
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+.home:hover{
+    border-bottom: 3px solid black;
+    margin-bottom: 20px ;
+}
+.home1{
+    margin-left:10px;
+    font-size: 10px;
+    font-weight: 700;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+.div1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 15px;
+}
+.words{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.new{
+    padding-left: 20px;
+    font-size: 12px
+}
+.small3{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 12px;
+    padding-left: 250px;
+}
+.new2{
+    padding-left: 20px;
+    font-weight: 53;
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%; 
+    text-align: center;
+    padding: 10px 50px;
+    padding-left: 450px;
+}
+.our1{
+    font-size: 50px;
+}
+.pro{
+   padding-top: 10px;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px 100px;
+    margin-top: 100px;
+}
+.card{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.humble{
+    font-size: 25px;
+    padding-top: 50px;
+}
+.app{
+    padding-top: 20px;
+    font-size: 15px;
+}
+.image{
+    width: 45%;
+    margin-left: 100px;
+}
+.body1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}   
+
+.est{
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 500px;
+    padding-top: 100px;
+}
+.est1a{
+    font-size: 25px;
+    padding-left: 20px;
+}
+.est1{
+    font-size: 25px;
+}
+.ll{
+    width: 80%;
+    padding-left: 300px;
+    padding-top: 10px;
+}
+.video{
+    padding: 20px 00px;
+    padding-left: 280px;
+    width: 100%;
+    padding-right: 220px;
+}
+.body2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 100px 100px;
+}
+.andrew{
+    width: 45%;
+}
+.proactive{
+    width: 45%;
+    padding: 250px 80px;
+    font-size: 25px;
+}
+.jones{
+    padding-top: 50px;
+    font-size: 20px;
+}
+.sig{
+    width: 50%;
+    padding-top: 30px;
+}
+.footer{
+    background-color: #95a6b1;
+    padding: 100px 50px;
+}
+.body5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    width: 100%;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 45%;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 45%;
+}
+.follow2{
+ color: rgba(101, 100, 100, 0.455);
+    font-size: 15px;
+    font-weight: 600;
+}
+.info{
+color: rgb(80, 80, 80);
+    font-size: 15px;
+    padding-top: 30px;
+}
+.fonts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fa-pinterest{
+    color: white;
+    padding: 30px;
+}
+.body6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.body6a{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.body6b{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 100px;
+}
+.our{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.hello{
+    color: white;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.form{
+    padding-top: 50px;
+}
+.input{
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 300px;
+    background-color: rgba(104, 103, 103, 0.155);
+}
+.sub{
+    font-size: 15px;
+    color: #646668b5;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    .footer{
+        margin-top: 100px;
+        padding: 50px 20px;
+       }
+       .body5{
+        flex-direction: column;
+       }
+       .footer1{
+        width: 100%;
+       }
+       .follow2{
+        font-size: 30px;
+       }
+       .fa-pinterest{
+        padding: 10px;
+       }
+       .info{
+        font-size: 30px;
+       }
+       .body6{
+        padding-top: 10px;
+        flex-direction: row;
+       }
+       .body6b{
+        padding-left: 30px;
+       }
+       .footer2{
+        width: 100%;
+       }
+       .follow2{
+        padding-top: 30px;
+       }
+       .hello{
+        font-size: 25px;
+       }
+       .input{
+        padding-right: 100px;
+        padding-top: 20px;
+       }
+       .form{
+        padding-top: 10px;
+       }
+    nav{
+        padding: 10px 10px;
+    }
+    .div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+    }
+    .logo{
+        width: 50%;
+    }
+    .small1{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-top: 20px;
+       padding-left: 10px;
+    }
+    .small2{
+        text-transform: uppercase;
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-top: 20px;
+        padding-left: 00px;
+    }
+    .div1{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 15px;
+        display: none;
+    }
+    .story{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .body{
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 0px 20px;
+        margin-top: 0px;
+    }
+    .card{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .humble{
+        padding-top: 10px;
+    }
+    .image{
+        width: 100%;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    .body1{
+        flex-direction: column;
+        width: 100%;
+    }
+    .est{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+    }
+    .est1{
+        padding-left: 0px;
+    }
+    .est1a{
+        padding-left: 10px;
+    }
+    .ll{
+        width: 100%;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .video{
+        width: 100%;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    .body2{
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+    .andrew{
+        width: 100%;
+    }
+    .proactive{
+        width: 100%;
+        padding: 20px 20px;
+    }
+}
